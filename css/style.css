@@ -1,0 +1,81 @@
+
+body {
+	overflow-x: hidden;
+	/*font-size: 1.4em;*/
+	/*background-color: #FFDDFF;*/
+}
+
+.large-font
+{
+	/*font-size: 2em;*/
+}
+
+table
+{
+	background-color: white;
+}
+
+#shop-online-main-button
+{
+	width: 100%;
+	font-size: 2em;
+}
+
+#banner
+{
+	
+}
+
+
+
+
+
+
+.border
+{
+	border: 1px solid black;
+}
+
+
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 2em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 2em;
+    }
+    
+    .navbar-brand
+	{
+		font-size: 1.2em;
+	}
+	
+	
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.5em;
+    }
+    
+    .navbar-brand
+	{
+		font-size: 1.2em;
+	}
+	
+
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.5em;
+    }
+}
